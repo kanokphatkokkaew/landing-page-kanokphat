@@ -67,7 +67,7 @@ body {
 }
 
 .header nav li a:hover {
-	background-color: #db1b2b;
+	background-color: #c70f55;
 }
 
 .container {
@@ -80,7 +80,7 @@ body {
 }
 
 .container .image-title {
-	max-width: 500px;
+	max-width: 250px;
 }
 
 .container .description {
@@ -93,13 +93,22 @@ body {
 .container .button-trailer {
 	background-color: #db1b2b;
 	color: #ffffff;
-	padding: 15px;
+	
 	font-size: 18px;
 	font-weight: bolder;
 	cursor: pointer;
 	border: none;
 	text-transform: uppercase;
-	transition: 0.5s all ease-in-out;
+	
+
+	
+    
+    padding: 10px 20px;
+    
+    
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .container .button-trailer:hover {
